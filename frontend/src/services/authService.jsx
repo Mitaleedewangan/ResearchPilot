@@ -30,7 +30,8 @@
 import axios from "axios";
 import { saveAuth } from "../utils/auth";
 
-const API_URL = "http://localhost:8000/api/auth";
+const API_URL =
+  "https://researchpilot-backend-0f0d.onrender.com/api/auth";
 
 export const signup = async (name, email, password) => {
   const response = await axios.post(`${API_URL}/signup`, {

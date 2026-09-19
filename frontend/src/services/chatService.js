@@ -3,7 +3,7 @@
 import axios from "axios";
 import { getToken } from "../utils/auth";
 
-const API_BASE_URL = "https://researchpilot-backend-0f0d.onrender.com";
+const API_BASE_URL = "https://researchpilot-backend-0f0d.onrender.com/api";
 
 const getAuthHeaders = () => {
   const token = getToken();
@@ -15,11 +15,12 @@ const getAuthHeaders = () => {
 
 
 // Normal Chat
-export const sendMessage = async (message) => {
+export const sendMessage = async (message, sessionId) => {
   const response = await axios.post(
     `${API_BASE_URL}/chat/`,
     {
       message,
+      session_id: sessionId,
     },
     {
       headers: getAuthHeaders(),

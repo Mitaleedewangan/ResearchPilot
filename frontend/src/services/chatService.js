@@ -3,7 +3,7 @@
 import axios from "axios";
 import { getToken } from "../utils/auth";
 
-const API_BASE_URL = "https://researchpilot-backend-0f0d.onrender.com/api";
+const API_BASE_URL = "https://researchpilot-backend-0f0d.onrender.com";
 
 const getAuthHeaders = () => {
   const token = getToken();

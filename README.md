@@ -609,3 +609,23 @@ ResearchPilot is an AI research assistant project demonstrating practical implem
 - FastAPI
 - React
 - MongoDB
+
+
+---
+
+## 🖥️ Application Screenshots
+
+### Landing Page
+
+![ResearchPilot Landing Page](Screenshots/Landing.png)
+
+### AI Chat Dashboard
+
+![AI Chat Dashboard](Screenshots/ChatDashBoard.png)
+
+
+### Research Report
+
+![Research Report](Screenshots/Research Report.png)
+
+---

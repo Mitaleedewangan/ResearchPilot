@@ -626,6 +626,6 @@ ResearchPilot is an AI research assistant project demonstrating practical implem
 
 ### Research Report
 
-![Research Report](Screenshots/Research Report.png)
+![Research Report](Screenshots/Research-Report.png)
 
 ---

@@ -557,8 +557,8 @@ import { v4 as uuidv4 } from "uuid";
 import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 import WelcomeScreen from "../components/WelcomeScreen";
-import ChatWindow from "../components/chat/ChatWindow";
-import ChatInput from "../components/chat/ChatInput";
+import ChatWindow from "../components/Chat/ChatWindow";
+import ChatInput from "../components/Chat/ChatInput";
 
 import {
   streamMessage,

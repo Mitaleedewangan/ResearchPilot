@@ -214,7 +214,8 @@ def stream_gemini(
 
     history = get_chat_history(
         user_id=user_id,
-        session_id=session_id
+        session_id=session_id,
+        limit=4
     )
 
     history_text = ""
